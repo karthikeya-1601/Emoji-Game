@@ -4,8 +4,6 @@ import './index.css'
 import {Component} from 'react'
 
 class NavBar extends Component {
-  /* gets top score and current score from EmojiGame page */
-  /* isGameEnd is used decide whether display navbar score card or not  */
   renderScores = () => {
     const {currentScore, topScore, isGameEnd} = this.props
     if (isGameEnd) {
